@@ -226,14 +226,11 @@
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                the
-                                collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was
+                                designed for layout in one dimension - either a row or a column. Grid was designed for
+                                two-dimensional layout - rows, and columns at the same time. The two specifications
+                                share some common features, however, and if you have already learned how to use flexbox,
+                                the similarities should help you get to grips with Grid.
                             </div>
                         </div>
                     </div>
@@ -247,15 +244,14 @@
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI
+                                kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn’t have
+                                a default theme or built-in UI components. Instead, it comes with predesigned widgets
+                                you can use to build your site from scratch.
+
+                                Bootstrap is known for its responsiveness, whereas proponents of Tailwind CSS typically
+                                value the framework’s customizability. The best choice for you depends on your
+                                priorities.
                             </div>
                         </div>
                     </div>
@@ -269,14 +265,12 @@
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the
-                                collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                When laying out a document, the browser's rendering engine represents each element as a
+                                rectangular box according to the standard CSS basic box model. CSS determines the size,
+                                position, and properties (color, background, border size, etc.) of these boxes.
+
+                                Every box is composed of four parts (or areas), defined by their respective edges: the
+                                content edge, padding edge, border edge, and margin edge.
                             </div>
                         </div>
                     </div>
@@ -290,22 +284,57 @@
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the
-                                collapse plugin adds the appropriate classes that we use to style each element. These
-                                classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables.
-                                It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather
+                                than just presentation. For example, a <p> tag indicates that the enclosed text is a
+                                    paragraph. This is both semantic and presentational because people know what
+                                    paragraphs are, and browsers know how to display them.
+
+                                    On the flip side of this equation, tags such as <b> and <i> are not semantic. They
+                                            define only how the text should look (bold or italic), and don't provide any
+                                            additional meaning to the markup.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="container bg-color-type my-5 rounded">
+            <div class="d-flex justify-content-between p-5">
+                <div>
+                    <h1 class="text-light fw-bold">Ready to join?</h1>
+                    <p class="text-light">Do you want to join our courses? Then just click <br> on register and do the
+                        following.</p>
+                </div>
+                <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Do you want to save changes?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
         <section class="container mt-5">
-            <h1 class="text-center fw-bold mb-4">Trusted by over 800+ companies</h1>
+            <h1 class="text-center fw-bold mb-4">Trusted by over 800+ companies</h1><br>
             <div class="d-flex justify-content-evenly">
                 <div>
                     <img src="images/company/company-1.png" alt="">

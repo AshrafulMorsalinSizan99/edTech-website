@@ -2,6 +2,10 @@
     filter: brightness(50%);
 }
 
+.bg-color-type {
+    background-color: #289BDE;
+}
+
 footer {
     height: 472px;
 }
